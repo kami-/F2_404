@@ -1,0 +1,9 @@
+; F2 - ACE Spectator Script with ACRE support
+; Credits: Please see the F2 online manual (http://www.ferstaberinde.com/f2/en/)
+; ====================================================================================
+
+; Set ACRE spectator chat on
+[true] call acre_api_fnc_setSpectator;
+
+; Call ACE Spectator Script
+_this call ace_fnc_startSpectator;

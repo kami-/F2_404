@@ -1,0 +1,87 @@
+// ============================================================================================
+
+// F2 - Mission Header - CHANGE THIS ACCORDINGLY
+// Credits: Please see the F2 online manual (http://www.ferstaberinde.com/f2/en/)
+
+class Header
+{
+	gameType = Coop;
+	minPlayers = 1;
+	maxPlayers = 970;
+};
+
+// ============================================================================================
+
+// F2 - Respawn Settings
+// Credits: Please see the F2 online manual (http://www.ferstaberinde.com/f2/en/)
+
+respawn = 1;
+respawndelay = 3;
+
+// ============================================================================================
+
+// F2 - Start of Params code blocks.
+// WARNING: DO NOT DELETE OR COMMENT OUT THIS CODE BLOCK
+
+class Params
+{
+
+// ============================================================================================
+
+// F2 - Debug Mode
+// Credits: Please see the F2 online manual (http://www.ferstaberinde.com/f2/en/)
+// WARNING: DO NOT DISABLE THIS COMPONENT
+
+        class f_param_debugMode
+        {
+			title = "Debug Mode";
+			values[] = {0,1};
+			texts[] = {"Off","On"};
+			default = 0;
+			code = "f_var_debugMode = %1";
+        }; 
+
+// ============================================================================================
+
+// F3 - Mission Timer/Safe Start
+// Credits: Please see the F2 online manual (http://www.ferstaberinde.com/f3/en/)
+
+        class f_param_mission_timer
+        {
+                title = "Mission Timer (Safe Start)";
+                values[] = {0,1,2,3,4,5,6,7,8,9,10,15};
+                texts[] = {"Off","1","2","3","4","5","6","7","8","9","10","15"};
+                default = 5;
+                code = "f_var_mission_timer = %1";
+        };
+
+// ============================================================================================
+
+// F2 - Mission Conditions Selector
+// Credits: Please see the F2 online manual (http://www.ferstaberinde.com/f2/en/)
+
+        class f_param_timeOfDay
+        {
+		title = "Time of Day";
+		values[] = {0,1,2,3,4,5,6,7};
+		texts[] = {"Dawn","Early Morning","Morning","Noon","Afternoon","Evening","Dusk","Night"};
+		default = 3;
+		code = "f_param_timeOfDay = %1";
+        };   
+        class f_param_weather
+	{
+		title = "Weather";
+		values[] = {0,1,2,3,4};
+		texts[] = {"Clear","Overcast","Light Fog","Heavy Fog","Storm"};
+		default = 0;
+		code = "f_param_weather = %1";
+        };
+
+// ============================================================================================
+
+// F2 - End of Params code blocks.
+// WARNING: DO NOT DELETE OR COMMENT OUT THIS CODE BLOCK
+
+};
+
+// ============================================================================================
