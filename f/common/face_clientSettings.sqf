@@ -16,11 +16,8 @@ enableSaving [false, false];
 // Disable BIS Conversations
 player setVariable ["BIS_noCoreConversations", true];
 
-// Disable Radio Subtitles
-enableRadio false;
-
 // Disables AI talk on players
-ace_sys_aitalk_talkforplayer = false;		
+ace_sys_aitalk_talkforplayer = false;
 
 // Prevents LEA (Loadout Editor for Arma) execution
 enable_lea_addon = false;
