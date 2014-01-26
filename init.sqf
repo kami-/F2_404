@@ -100,6 +100,18 @@ f_script_setTeamColours = [] execVM "f\common\markers\f_setTeamColours.sqf";
 
 // ====================================================================================
 
+// F2_ACE - 404 AI Init with Headless Client
+// Credits: Please see the F2 online manual (http://www.ferstaberinde.com/f2/en/)
+
+// The default player names for the HeadlessClient. Add your Headless Client's player name if it is missing.
+// Not neccessary to uncomment.
+//f_HC_defaultNames = ["HeadlessClient", "HC"];
+
+// Neccessary to uncomment!
+// [] call compile preProcessFileLineNumbers "f\ai\f_ai_init.sqf";
+
+// ====================================================================================
+
 // DAC Init
 
 /*
