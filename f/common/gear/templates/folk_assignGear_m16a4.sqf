@@ -46,8 +46,7 @@
 // GENERAL EQUIPMENT USED BY MULTIPLE CLASSES
 
 _rifle = "ACE_M16A4_Iron"; _riflemag = "30Rnd_556x45_Stanag";																				// Standard Riflemen (Spotter, HMG Assistant Gunner, MMG Assistant Gunner, Assistant Automatic Rifleman, MAT Assistant Gunner, HAT Assistant Gunner, MTR Assistant Gunner, Rifleman)
-
-_carbine = "ACE_M4_C"; _carbinemag = "30Rnd_556x45_Stanag"; 																				// Standard Carabineer (Medic, HMG Gunner, Rifleman (AT), Rifleman (AA), MAT Gunner, HAT Gunner, MTR Gunner, Carabineer)
+_carbine = "ACE_M4A1_C"; _carbinemag = "30Rnd_556x45_Stanag"; 																				// Standard Carabineer (Medic, HMG Gunner, Rifleman (AT), Rifleman (AA), MAT Gunner, HAT Gunner, MTR Gunner, Carabineer)
 
 _smg = "MP5A5"; _smgmag = "30Rnd_9x19_MP5";																									// Standard Submachine Gun/Personal Defence Weapon (Vehicle Crew, Aircraft Pilot, Submachinegunner)
 
